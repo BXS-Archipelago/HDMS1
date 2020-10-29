@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Red Rose:100,200,300,400,500,600,700");
+
+
+/*-----------------------------------Navigation Bar & Logo*/
+
+.logo-container .logo {
+    text-decoration: none;
+    padding: 20px 0;
+    }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#261421; 
+    color: #eee2dc;
+    font-family: "Red Rose", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #261421;
+    
+        }
+
+
+.logo span {
+    color: #eee2dc; 
+    font-size: 150%;  
+    border: 2px solid white;     
+    border-radius: 4px; 
+    padding: 6px 10px; 
+    text-align: center; 
+    margin: 10px;
+    }
+
+
+.logo span:hover {
+     transition: ease;
+    opacity: 0.6;
+    transition-duration: 1s;
+}
+
+.menu-container {
+   display: flex;
+   justify-content: right;
+   align-items: center;
+    background-color:#261421;
+   
+}
+
+.nav-menu {
+    text-align: right;
+    font-family: "Red Rose", sans-serif;
+    background: #261421;
+    padding-right: 30px;
+    margin-bottom: 0;
+    width: 100%;   
+}    
+
+.nav-menu a {
+    color: #eee2dc;
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 20px;
+    text-shadow: 2px 2px #554f51;
+    }
+
+.nav-menu a i {
+       font-size: 25px;
+       margin: 0;
+}
+
+.nav-menu li:hover {
+     transition: ease;
+    opacity: 0.7;
+    transition-duration: 1s;
+}
+
+/*-----------------------------------Section : Index Page & BG Image*/
+
+
+
+.lg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/fever-ray01.jpg");
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.mid-text {
+    font-family: "Red Rose", sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#eee2dc;
+}
+
+.body-content {
+   height: auto;
+    padding: 0 20 0 20px;
+    font-family: "Red Rose", sans-serif;
+}
+
+/*-----------------------------------Section : About Page & YT Video Content*/
+
+.about {
+      width: 100%;
+    margin: 10px;
+    padding: 0 50px;
+}
+
+.about-vid {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+.about-vid  iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* ..................................Artists Page: Gallery*/
+
+.glry-holder {
+    display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.col-glry {
+    flex: 30%;
+  max-width: 30%;
+  padding: 0 40px;
+}
+
+.glry-main {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.glry-main img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
