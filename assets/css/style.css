@@ -18,10 +18,14 @@ header {
 
 .menu-container {
     display: flex;
-    justify-content: right;
     align-items: center;
-    background-color:#CC5500;
-}
+    justify-content: right; 
+    background-position: left;    
+    background-size: 400% 400%;
+    background: linear-gradient(-45deg,  #FA6800, #CC5500,#421C00, #000);
+    }
+
+
 
 .nav-menu {
     text-align: right;
@@ -98,41 +102,32 @@ header {
 /*--------------------------------------Footer area*/
 
 footer {
-   
+    height: 15vh;
     text-align: center;
     display: block;
     overflow: hidden;
-   
     box-sizing: border-box;
-    margin: 0px;
-    
-}
+    }
 
 
 .blk-box {
+   
         background-color: #000;             
        }
 
 .orng-box {
-        background-color: #CC5500;
+    
+        background: linear-gradient(-45deg,  #FA6800, #CC5500,#421C00, #000);
 }       
 
-.tag-container {
-    display: block;
-    margin: 0 auto;
-    font-family: "Merriweather Sans", sans-serif;
-    font-size: 13px;
-    color:#fff;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    background-color:#CC5500;
-    padding: 8 0px;
-    height: 100%
 
+.tagline {
+    color: #fff;
 }
 
 .tagline a {
     color: #eee2dc;
+    font-family: "Merriweather Sans", sans-serif;
 }
 
 .social-icons i {
@@ -156,7 +151,8 @@ footer {
      }
 
 .bxs-arc {
-    font-size: 12px;
-    color:#551e04;
+    font-size: 15px;
+    color:#CC5500;
     align-content: right;
+   
 }
