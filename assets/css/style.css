@@ -105,7 +105,7 @@ header {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:#CC5500;
+    color: #CC5500;
     font-size: 2vw;
   text-shadow: 3px 3px 0px rgb(63, 27, 1);
   mix-blend-mode: screen;
@@ -126,7 +126,175 @@ header {
     .mid-text{
            font-size: 4vw;
 }
+}
 
+/*--------------------------------------Artists Gallery Page */
+
+.glry-section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 6% 2%;
+}
+
+.glry-grid {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.glry-grid:after, .glry-box:before {
+    content: '';
+    display: table;
+}
+
+.glry-grid li {
+    width: 328px;
+    height: 328px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.glry-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+
+.glry-box:hover {
+    transform: scale(1.05);
+}
+
+glry-img-1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/agnes_obel1a.png");
+}
+
+glry-img-2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/ane_brun2.png");
+}
+
+glry-img-3 {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/elperrodelmar2.png");
+}
+
+glry-img-4 {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/fever_ray3.png");
+}
+
+glry-img-5 {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../imghannehukkelberg2.png/");
+}
+
+glry-img-6 {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/jennie_abrahamson1a.png");
+}
+
+glry-img-7 {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/mirel_wagner1.png");
+}
+glry-img-8 {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/ninakinert2.png");
+}
+
+glry-img-9 {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/olivera1a.png");
+}
+
+glry-img-10 {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/stina_nordenstam2.png");
+}
+
+glry-img-11 {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/susanne_sundfor2a.png");
+}
+glry-img-12 {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/tina_dico2.png");
+}
+
+
+/*--------------------------------------About */
+
+.abt-container {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left,  #FA6800, #CC5500,#421C00, #000); 
+
+}
+
+.abt-pic {
+    background-image: url("../img/globe.png");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-color: linear-gradient(to left,  #FA6800, #CC5500,#421C00, #000); 
+    overflow: hidden;
+    padding: 120px 0;
+}
+
+.inner-container {
+    width: 65%;
+    float: right;
+    background-color: #421C00;
+    padding: 100px;
+    opacity: 0.8;
+    }
+
+.inner-container h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: "Red Rose", sans-serif;
+    color: #FA6800;
+}
+  
+.abt-text {
+    font-family: "Red Rose", sans-serif;
+    font-size: 13px;
+    color: #FA6800;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/*--------------------------------------About Media Query*/
+
+@media screen and (max-width: 991px) {
+    .inner-container{
+        padding: 70px;
+        opacity: 0.9;
+    }
+
+.about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+
+    .abt-pic {
+        background-size: 80%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
 /*--------------------------------------Contact Form */
 
 .cont-sctn {
@@ -265,6 +433,7 @@ header {
 
 @media (max-width: 991px)
 {
+    
 .contact-container .form-box {
     width: 100%;
     padding: 0 50px;
@@ -285,7 +454,7 @@ header {
 /*--------------------------------------Footer area*/
 
 footer {
-    height: 15vh;
+    height: 12vh;
     text-align: center;
     display: block;
     overflow: hidden;
