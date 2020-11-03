@@ -122,7 +122,7 @@ header {
     }
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .mid-text{
            font-size: 4vw;
 }
@@ -131,7 +131,7 @@ header {
 /*--------------------------------------Artists Gallery Page */
 
 .glry-section {
-    max-width: 960px;
+    max-width: 90%;
     margin: 0 auto;
     padding: 6% 2%;
 }
@@ -151,8 +151,8 @@ header {
 }
 
 .glry-grid li {
-    width: 328px;
-    height: 328px;
+    width: 320px;
+    height: 320px;
     display: inline-block;
     margin: 20px;
 }
@@ -175,50 +175,108 @@ header {
     transform: scale(1.05);
 }
 
-glry-img-1 {
-    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/agnes_obel1a.png");
+.glry-img1 {
+          background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../img/agnes_obel1a.png");
+            background-size: cover;
 }
 
-glry-img-2 {
+.glry-img2 {
     background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/ane_brun2.png");
+    background-size: cover;
 }
 
-glry-img-3 {
+.glry-img3 {
     background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/elperrodelmar2.png");
+    background-size: cover;
 }
 
-glry-img-4 {
+.glry-img4 {
     background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/fever_ray3.png");
+    background-size: cover;
 }
 
-glry-img-5 {
-    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../imghannehukkelberg2.png/");
+.glry-img5 {
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/hannehukkelberg2.png");
+    background-size: cover;
 }
 
-glry-img-6 {
+.glry-img6 {
     background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/jennie_abrahamson1a.png");
+    background-size: cover;
 }
 
-glry-img-7 {
+.glry-img7 {
     background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/mirel_wagner1.png");
+    background-size: cover;
 }
-glry-img-8 {
+.glry-img8 {
     background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/ninakinert2.png");
+    background-size: cover;
 }
 
-glry-img-9 {
+.glry-img9 {
     background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/olivera1a.png");
+    background-size: cover;
 }
 
-glry-img-10 {
+.glry-img10 {
     background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/stina_nordenstam2.png");
+    background-size: cover;
 }
 
-glry-img-11 {
+.glry-img11 {
     background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/susanne_sundfor2a.png");
+    background-size: cover;
 }
-glry-img-12 {
+.glry-img12 {
     background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/tina_dico2.png");
+    background-size: cover;
+}
+
+.glry-info {
+    position: absolute;
+    width: inherit;
+    height: inherit;      
+}
+
+.glry-info h3 {
+    font-family: "Red Rose", sans-serif;
+    font-weight: 700;
+    color: #CC5500;
+    text-shadow: 2px 2px #554f51;
+    font-size: 18px;
+    margin: 0 30px;
+    padding: 270px 0 0 0;
+    line-height: 1.2;
+    text-transform: uppercase;
+    
+}
+
+@media screen and (max-width: 992px) {
+    .glry-section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 6% 2%;
+}
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    .glry-section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 6% 2%;
+}
+.glry-grid li {
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    margin: 15px;
+}
+.glry-info h3 {
+    padding: 200px 0 0 0;
+}
 }
 
 
@@ -292,9 +350,16 @@ glry-img-12 {
         padding: 0;
     }
     .inner-container{
-        padding: 60px;
+        padding: 30px;
     }
+
+.abt-pic {
+    background-size: cover;
+    align-content: center;
+    padding: 40px 0;
 }
+}
+
 /*--------------------------------------Contact Form */
 
 .cont-sctn {
@@ -431,7 +496,7 @@ glry-img-12 {
 }
 /*--------------------------------------Contact form Responsive area*/
 
-@media (max-width: 991px)
+@media screen and (max-width: 991px)
 {
     
 .contact-container .form-box {
@@ -448,7 +513,6 @@ glry-img-12 {
 .contact-container .imgbox {
     display:none;
 }
-
 
 }
 /*--------------------------------------Footer area*/
@@ -475,6 +539,7 @@ footer {
 
 .tagline {
     color: #fff;
+    text-transform: uppercase;
 }
 
 .tagline a {
@@ -502,9 +567,21 @@ footer {
     text-decoration: none;
      }
 
-.bxs-arc {
-    font-size: 15px;
-    color:#CC5500;
-    align-content: right;
-   
+
+
+@media screen and (max-width: 600px)
+{ 
+    footer {
+        height: 12vh;
+        }
+
+    .tagline {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+.social-icons i {
+   font-size: 14px;
+   line-height: 1.2;
+
+}
 }
