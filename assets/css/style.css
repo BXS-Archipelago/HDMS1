@@ -134,10 +134,10 @@ header {
     max-width: 90%;
     margin: 0 auto;
     padding: 6% 2%;
-}
+    }
 
 .glry-grid {
-    margin: 20px 0 0 0;
+       margin: 20px 0 0 0;
     padding: 0;
     list-style: none;
     display: block;
@@ -176,60 +176,60 @@ header {
 }
 
 .glry-img1 {
-          background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../img/agnes_obel1a.png");
+          background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10)), url("../img/agnes_obel1a.png");
             background-size: cover;
 }
 
 .glry-img2 {
-    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/ane_brun2.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10)), url("../img/ane_brun2.png");
     background-size: cover;
 }
 
 .glry-img3 {
-    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/elperrodelmar2.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10)), url("../img/elperrodelmar2.png");
     background-size: cover;
 }
 
 .glry-img4 {
-    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/fever_ray3.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10)), url("../img/fever_ray3.png");
     background-size: cover;
 }
 
 .glry-img5 {
-    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/hannehukkelberg2.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10)), url("../img/hannehukkelberg2.png");
     background-size: cover;
 }
 
 .glry-img6 {
-    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/jennie_abrahamson1a.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10)), url("../img/jennie_abrahamson1a.png");
     background-size: cover;
 }
 
 .glry-img7 {
-    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/mirel_wagner1.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10)), url("../img/mirel_wagner1.png");
     background-size: cover;
 }
 .glry-img8 {
-    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/ninakinert2.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10)), url("../img/ninakinert2.png");
     background-size: cover;
 }
 
 .glry-img9 {
-    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/olivera1a.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10)), url("../img/olivera1a.png");
     background-size: cover;
 }
 
 .glry-img10 {
-    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/stina_nordenstam2.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10)), url("../img/stina_nordenstam2.png");
     background-size: cover;
 }
 
 .glry-img11 {
-    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/susanne_sundfor2a.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10)), url("../img/susanne_sundfor2a.png");
     background-size: cover;
 }
 .glry-img12 {
-    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("../img/tina_dico2.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10)), url("../img/tina_dico2.png");
     background-size: cover;
 }
 
@@ -585,3 +585,64 @@ footer {
 
 }
 }
+
+/*---------------------------------------------------------------bio pages*/
+
+
+.info-container {
+    height: 100vh;
+    width: auto;
+    padding :0;
+   }
+
+
+.img-container {
+    position: relative;
+    background-image: url("../img2/agnesobelw.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    height: 40%;
+    width: auto;
+    margin: 10px;
+    border: 2px solid black;
+}
+.img-text-box {
+    position: absolute;
+    text-align: center;
+    font-family: "Red Rose", sans-serif;
+    color: #CC5500;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #421C00;
+    border: 1px solid #fff;
+    opacity: 0.5;
+}
+
+.img-text-box .info-box {
+color: yellow;
+font-size: 13px;
+margin: 25px;
+}
+
+.artist-list-container .artist-icons i {
+   font-size: 30px;
+  color: yellow;
+   text-decoration: none; 
+   line-height: 2;
+   letter-spacing: 20px;
+   
+}
+.artist-list-container .artist-icons a:hover{
+    transition: ease;
+    opacity: 0.5;
+    transition-duration: 1s;
+    -moz-transition: ease 1s;
+    -webkit-transition: ease 1s;
+    -o-transition: ease 1s;
+ }
+
+.artist-list-container .artist-icons a{
+    text-decoration: none;
+     }
+
